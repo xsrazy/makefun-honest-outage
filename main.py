@@ -23,6 +23,15 @@ The entry line does all five:
 * At 156 characters it is a single scannable sentence pair with no wasted
   words, no joke, no slogan, and no em dash anywhere.
 
+Revision note (coordinator pass): the entry line itself is unchanged from
+the builder's draft. What changed in this revision is the framing around
+it. The docstring now states the honesty contract explicitly: the line
+names the outage, names what cannot be verified, and promises nothing it
+cannot back up. That is the whole entry. A status page line earns trust by
+refusing to fill the gaps, so the revision keeps the two-sentence shape
+and adds no reassurance, no cause, and no ETA. The line stays 156
+characters, first person, plain, and scannable at a glance.
+
 This program writes that one line to ``$MAKEFUN_OUTPUT_DIR/entry.txt``
 (default ``/output``) with no trailing newline, then validates it: UTF-8,
 1 to 160 characters, a single line, not only whitespace.
